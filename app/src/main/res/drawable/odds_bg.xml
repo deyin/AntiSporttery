@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="-2dp" android:drawable="@drawable/odds_bg_selected" android:right="-2dp" android:state_checked="true" />
+
+    <item android:bottom="-2dp" android:drawable="@drawable/odds_bg_default" android:right="-2dp" android:state_focused="false" />
+</selector>

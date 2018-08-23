@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="negative_spread_bg_color">#facfcc</color>
+    <color name="positive_spread_bg_color">#daf4d3</color>
+
+    <color name="none_spread_bg_color">#f7f4f1</color>
+
+    <color name="odds_bg_default_color">#ffffff</color>
+    <color name="odds_bg_selected_color">#ff5243</color>
+
+    <color name="grid_bg_color">#e2e0e0</color>
+</resources>

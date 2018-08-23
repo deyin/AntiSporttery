@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="8dp"
+    android:background="@drawable/grid_bg"
+    android:columnCount="12"
+    android:rowCount="3">
+
+    <TextView
+        android:id="@+id/tv_vs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="12"
+        android:text="Host vs Guest"
+        android:padding="@dimen/odds_padding"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_match_info"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="0.24"
+        android:layout_gravity="center"
+        android:layout_rowSpan="2"
+        android:gravity="center"
+        android:text="001" />
+
+    <TextView
+        android:id="@+id/tv_none_spread"
+        android:layout_height="@dimen/odds_height"
+        android:layout_width="@dimen/spread_width"
+        android:background="@drawable/none_spread_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tv_win"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="0.3"
+        android:background="@drawable/odds_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="1.01" />
+
+    <TextView
+        android:id="@+id/tv_draw"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="0.3"
+        android:background="@drawable/odds_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="2.01" />
+
+    <TextView
+        android:id="@+id/tv_lose"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="0.3"
+        android:background="@drawable/odds_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="3.01" />
+
+    <TextView
+        android:id="@+id/tv_spread"
+        android:layout_height="@dimen/odds_height"
+        android:layout_width="@dimen/spread_width"
+        android:background="@drawable/none_spread_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="-1" />
+
+    <TextView
+        android:id="@+id/tv_spread_win"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="0.3"
+        android:background="@drawable/odds_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="4.01" />
+
+    <TextView
+        android:id="@+id/tv_spread_draw"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="0.3"
+        android:background="@drawable/odds_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="5.01" />
+
+    <TextView
+        android:id="@+id/tv_spread_lose"
+        android:layout_height="@dimen/odds_height"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="0.3"
+        android:background="@drawable/odds_bg"
+        android:gravity="center"
+        android:padding="@dimen/odds_padding"
+        android:text="6.01" />
+
+</GridLayout>
